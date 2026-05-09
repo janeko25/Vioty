@@ -1,0 +1,166 @@
+:root{
+    --bg:#000;
+    --accent-color:#D23166;
+    --main-color:#FFF;
+    --social-bg: rgba(255,255,255,0.10);
+    --card-bg:#151515;
+    --color-btn: #FAFAFA;
+    --about-text:rgba(255, 255, 255, 0.20);
+}
+
+.container {
+    width: 1267px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: 1px solid red;
+}
+
+body{
+background-color: var(--bg);
+}
+
+.header{
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+.header .container{
+display: flex;
+align-items: center;
+justify-content: space-between ;
+}
+
+.header-list{
+display: flex;
+gap: 95px;
+}
+
+.header-link {
+    color: var(--main-color);
+    text-align: justify;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+.header-items{
+    display: flex;
+    gap: 15px;
+}
+.header-social{
+    width: 36px;
+    height: 36px;
+    background-color: var(--social-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.header-img{
+    width: 15px;
+    height: 15px;
+}
+/* hero */
+
+.hero .container{
+display: flex;
+gap: 73px;
+align-items: center;
+}
+
+.hero-text{
+    align-self: stretch;
+        color: var(--main-color);
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1.4px;
+        margin-bottom: 20px;
+}
+.hero-title{
+    align-self: stretch;
+        color: var(--main-color);
+        font-family: Alexandria;
+        font-size: 57.33px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 94%;
+        letter-spacing: -4.013px;
+        opacity: 0.9;
+        width: 587px;
+        margin-bottom: 16px;
+}
+.hero-span{
+    color: var(--accent-color);
+}
+.hero-desk{
+    color: var(--main-color);
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+        opacity: 0.6;
+        width: 578px;
+        margin-bottom: 48px;
+}
+.hero-btn{
+    background-color: var(--accent-color);
+    padding: 13px 50px;
+    color: var(--color-btn);
+        font-family: "Hind Madurai";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+/* about */
+.about{
+    padding-top: 129px;
+    padding-bottom: 105px;
+}
+.about-text{
+color: var(--main-color);
+    text-align: center;
+    font-family: Alexandria;
+    font-size: 57.33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -4.013px;
+    opacity: 0.9;
+}
+
+.inner-box {
+    position: relative;
+    padding: 0 24px;
+}
+
+.about-span{
+color: var(--about-text);
+}
+.about-pistachio {
+    position: absolute;
+        top: -75px;
+        right: 120px;
+        width: 137px;
+        height: 137px;
+}
+
+.about-milk {
+    position: absolute; 
+    top: 100px;
+    left: 29px;
+    width: 144px;
+    height: 144px;
+}
+
+.about-strawberry {
+    position: absolute;
+    top: 235px;
+    right: 534px;
+    width: 90px;
+    height: 90px;
+}
