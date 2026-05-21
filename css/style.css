@@ -164,3 +164,97 @@ color: var(--about-text);
     width: 90px;
     height: 90px;
 }
+/* product */
+.product{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.product-title{
+    color: var(--main-color);
+        font-family: Roboto;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 94%;
+        letter-spacing: -3.92px;
+        opacity: 0.9;
+}
+
+.product-list{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.product-btn{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--social-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.product-item:last-child{
+    transform: rotate(180deg);
+}
+.product-caption{
+    color: var(--main-color);
+        font-family: "Hind Madurai";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+
+.product-items{
+display: flex;
+gap: 20px;
+}
+
+.product-wraper{
+padding: 24px 30px;
+}
+
+.product-text{
+    color: var(--main-color);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        opacity: 0.7;
+}
+.product-price{
+    display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        color: var(--main-color);
+        font-family: "Hind Madurai";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%;
+}
+.product-button{
+    color: var(--color-btn);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        display: flex;
+            padding: 15px 46px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            align-self: stretch;
+            border-radius: 5px;
+            background: var(--accent-color);
+}
